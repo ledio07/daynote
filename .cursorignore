@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+**/credentials*.json
+**/*.pem
+**/*.key
+**/.ssh/id_*
+
+# Generated / artifacts
+dist/
+build/
+out/
+coverage/
+*.min.js
+*.min.css
+*.map
+
+# Large binaries & media
+*.pdf
+*.zip
+*.mp4
+*.mov
